@@ -1,0 +1,136 @@
+1.Which keyword is used to define a function?
+
+Select the correct keyword used to define a function in Python from the following options:
+
+
+define
+def[ans]
+func
+function
+
+Correct!
+
+2.What value does it return by default?
+
+If a function does not have a return statement, what value does it return by default?
+False
+None[ans]
+0
+It will throw an error
+True
+
+Correct!
+
+3.Personalized Greeting
+
+Create a function greet_user(name: str) -> str that takes a name as an argument and returns a personalized greeting message as shown below.
+
+Expected outcome:
+
+The function should return a greeting message with the given name.
+
+Example:
+
+greet_user("Alice")
+Output:
+
+"Hello, Alice!"
+Correct!
+def greet_user(name: str) -> str:
+    return "Hello, " + name + "!"
+
+4.What’s the difference between parameters and arguments in a function?
+
+
+Arguments are always integers, parameters are always strings.
+
+Parameters are the placeholders listed in the function definition; arguments are the actual values you pass to the function when calling it.[ans]
+
+Arguments and parameters mean the same thing in Python.
+
+Parameters are the values passed to the function when calling it, while arguments are defined inside the function.
+
+Correct!
+
+5.What is the correct output?
+
+Below is the code snippet:
+
+message = "Now you are at activity number 5"
+
+def change_message() -> str:
+    message = "Next activity is number 6"
+    return message
+
+print(change_message())
+print(message)
+What will be the output of the code?
+
+
+Next activity is number 6
+Next activity is number 6
+
+Next activity is number 6
+Now you are at activity number 5[ans]
+
+Now you are at activity number 5
+Now you are at activity number 5
+
+Now you are at activity number 5
+Next activity is number 6
+Correct!
+
+6.Rectangle Area Calculator
+
+Create a function rectangle_area(width: float, height: float) -> float that calculates the area of a rectangle given its width and height. The function should return the area as a floating-point number.
+
+Expected outcome:
+
+The function should return the area of the rectangle as a floating-point number.
+
+Example:
+
+rectangle_area(5.0, 3.0)
+Output:
+
+15.0
+Correct!
+def rectangle_area(width: float, height: float) -> float:
+    return width * height
+
+
+7.In Python, code inside a function must be
+
+Select the correct option:
+
+
+Indented consistently (commonly 4 spaces) after the def line[ans]
+
+
+Aligned with the left margin
+
+
+Indented by exactly two spaces
+
+
+Indented by at least one space
+
+Correct!
+
+8.Currency Converter
+
+Create a function convert_currency(amount: float, rate: float) -> float that converts an amount from one currency to another using the given exchange rate. The function should return the converted amount as a floating-point number.
+
+Expected outcome:
+
+The function should return the converted amount as a floating-point number.
+
+Example:
+
+convert_currency(100.0, 0.85)
+Output:
+
+85.0
+Correct!
+def convert_currency(amount: float, rate: float) -> float:
+    return amount * rate

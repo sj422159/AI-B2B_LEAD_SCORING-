@@ -1,0 +1,251 @@
+1.What type of error occurs when you try to divide by zero in Python?
+
+
+Runtime Error
+
+
+Logical Error[ans]
+
+
+Syntax Error
+
+
+Indentation Error
+
+Correct!
+2.Which of the following represents a Syntax Error?
+
+
+print(5 / 0)
+
+
+y = int("hello")
+
+
+average = sum(numbers) / len(numbers) + 1
+
+
+if x == 5 print("x is five")[ans]
+
+Correct!
+
+3.What will be output of given python code?
+
+if True print("Hello")
+
+Empty String
+
+
+Print "Hello"
+
+
+Logical Error
+
+
+Syntax Error[ans]
+
+Correct!
+
+4.What type of error might this code produce result = (10 + 5) / 3 + 1 if result is expected to be 5?
+
+
+Logical Error[ans]
+
+Runtime Error
+
+TypeError
+
+Syntax Error
+
+Correct!
+
+
+5.Which among the following will raise Syntax Error?
+
+
+print(10/0)
+
+print("Result":)[ans]
+
+for i in range(10): print(i)
+
+x = 5
+
+Correct!
+
+
+
+6.What type of error occurs when trying to read a file that does not exist?
+
+
+Runtime Error[ans]
+
+Syntax Error
+
+Logical Error
+
+Indentation Error
+
+Correct!
+
+
+7.You wrote a program that asks users for a number, but the user enters a string instead. How can you handle potential errors?
+
+
+Just let the program crash
+
+Use an if statement to check if it's a number
+
+Use a try/except block to catch ValueError[ans]
+
+None of the above
+
+Correct!
+
+
+
+8.During arithmetic operations, if you accidentally multiply a float with a string, which error will occur? How can you prevent this?
+
+
+TypeError; use try/except to catch it[ans]
+
+NameError; check variable names
+
+IndentationError; adjust spacing
+
+SyntaxError; change the code format
+
+Correct!
+
+
+9.What will be output of following code?
+
+def add_numbers(x,y):
+    return x+y
+
+print(add_numbers("5",7))
+
+57
+
+"5" + 7
+
+12
+
+TypeError[ans]
+
+10.What is the purpose of an else block in a try-except structure?
+
+
+It has no purpose and is optional
+
+To handle all types of exceptions
+
+To provide cleanup actions
+
+To execute code only if no exceptions occur[ans]
+
+Correct!
+
+
+11.What does the finally block guarantee in Python?
+
+
+It guarantees that the code runs before exceptions are raised
+
+It executes only when no exceptions are raised
+
+It guarantees that the code runs regardless of whether an exception occurred or not.[ans]
+
+It runs only if the try block has no errors
+
+
+12.Which of the following is not a built-in exception in Python?
+
+
+ValueError
+
+ImportError
+
+AttributeError
+
+OutOfMemoryError[ans]
+
+Correct!
+
+
+
+13.When handling exceptions, what happens if an exception occurs inside an except block but there is no subsequent try block to catch it?
+
+
+The program continues executing the next line after the except block
+
+The program handles the second exception automatically
+
+The program terminates and prints the traceback[ans]
+
+It raises a warning but does not stop execution
+
+Correct!
+
+
+14.Which of the following statements correctly describes how to handle an IndentationError?
+
+
+Wrap the code in a try-except block to catch it
+
+Indentation errors can be ignored without consequences
+
+Use a default value when the error occurs
+
+Correct the indentation in the code before running it[ans]
+
+Correct!
+
+
+
+15.Which of the following statements about finally blocks is false?
+
+
+A finally block executes regardless of whether an exception is raised
+
+You cannot have a finally block without a corresponding try block
+
+A finally block can be skipped if there is an unhandled exception[ans]
+
+The finally block will execute even if a return statement is encountered in the try block
+
+Correct!
+
+
+16.Select the correct output of this code
+
+
+Preview
+
+It will print an error message if a negative number (other than -1) is entered, and continue asking for input until -1 is entered[ans]
+
+It will give a syntax error
+
+It will terminate immediately if a negative number is entered
+
+It will print nothing and exit the program
+
+
+17.What will be the output of the following code snippet if the user inputs is -5.
+
+
+Preview
+
+Execution will stop without any output
+
+You entered: 5
+
+Only positive numbers are allowed. You entered: 3
+
+Only positive numbers are allowed[ans]
+
+Correct!
+
+
+
+
