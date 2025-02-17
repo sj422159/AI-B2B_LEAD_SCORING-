@@ -190,7 +190,3 @@ celsius = (fahrenheit - 32) * 5/9
 
 # Print the temperature in Celsius
 print("Temperature in Celsius:", celsius)
-
-
-
-11.
